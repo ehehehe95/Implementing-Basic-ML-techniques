@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AI오답노트</string>
+    <string name="main">StudyNoteAI</string>
+    <string name="title_activity_problem">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--problem notes-->
+    <string name="addProblemFromGallery">gallery</string>
+    <string name="deleteProblem">delete</string>
+    <string name="addProblemUsingCamera">camera</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addNote">addNote</string>
+    <string name="gallery">gallery</string>
+    <string name="problemOpened">ProblemView</string>
+    <string name="folderNameHint">폴더이름을 입력하세요!</string>
+    <string name="aiFlag">AI모드</string>
+    <string name="solutionText">풀이 등록</string>
+    <string name="saveText">풀이 저장</string>
+    <string name="deleteText">풀이 삭제</string>
+
+    <!--설정 영역-->
+    <string name="aiSetting">AI 설정</string>
+    <string name="aiProblemSetting">문제 설정</string>
+    <string name="onlyWrong">틀린 문제만</string>
+    <string name="aiAll">모든 문제</string>
+    <string name="aiSensitivityName">AI 민감도</string>
+
+    <string name="internal_storage">Internal Storage</string>
+    <string-array name="imagePicker">
+        <item>From Gallery</item>
+        <item>From Camera</item>
+    </string-array>
+</resources>

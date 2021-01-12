@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aiSetting"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingHorizontal="14dp"
+            >
+
+
+            <TextView
+                android:id="@+id/problemConfigName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aiProblemSetting"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/problemConfig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/problemConfigName"
+                android:orientation="horizontal">
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/onlyWrong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/onlyWrong"/>
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/allProblem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aiAll"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/aiSensitivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aiSensitivityName"
+                android:layout_below="@id/problemConfig"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/aiSensitivitySlider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aiSensitivity"
+                android:valueFrom="30"
+                android:valueTo="90"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ai_config_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="20dp"
+                android:text="OK"
+                app:icon="@drawable/ic_check"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ai_config_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="0dp"
+                android:text="NO"
+                app:icon="@drawable/icon_cancel_36dp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

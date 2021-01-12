@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="폴더 이름 설정"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/folderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/heading"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:textSize="16sp"
+                android:hint="@string/folderNameHint"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/icon_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/folderName"
+                android:text="아이콘 설정"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+            <LinearLayout
+
+                android:id="@+id/radioButtonGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/icon_name"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+
+
+                <RadioGroup
+                    android:id="@+id/subjectGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:id="@+id/ic_folder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:layout_margin="4dp"
+                            android:layout_marginBottom="0dp"
+                            android:drawableRight="@drawable/ic_folder_24dp" />
+
+                        <RadioButton
+                            android:id="@+id/ic_history"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginBottom="0dp"
+                            android:drawableRight="@drawable/ic_history_24dp" />
+
+                        <RadioButton
+                            android:id="@+id/ic_cal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginBottom="0dp"
+                            android:drawableRight="@drawable/ic_cal_24dp" />
+
+                        <RadioButton
+                            android:id="@+id/ic_law"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginBottom="0dp"
+                            android:drawableRight="@drawable/ic_law_24dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/ic_science"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:drawableRight="@drawable/ic_science_24dp" />
+
+                        <RadioButton
+                            android:id="@+id/ic_writing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:drawableRight="@drawable/ic_writing_24dp" />
+
+                        <RadioButton
+                            android:id="@+id/ic_symbols"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:drawableRight="@drawable/ic_symbols_24dp" />
+
+                        <RadioButton
+                            android:id="@+id/ic_pet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:drawableRight="@drawable/ic_pet_24dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <RadioButton
+                            android:id="@+id/ic_school"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginTop="0dp"
+                            android:drawableRight="@drawable/ic_school_24dp" />
+
+                        <RadioButton
+                            android:id="@+id/ic_idea"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginTop="0dp"
+                            android:drawableRight="@drawable/ic_idea_24dp" />
+
+                        <RadioButton
+                            android:id="@+id/ic_art"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginTop="0dp"
+                            android:drawableRight="@drawable/ic_art_24dp" />
+
+                        <RadioButton
+                            android:id="@+id/ic_heart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:layout_marginTop="0dp"
+                            android:drawableRight="@drawable/ic_heart_24dp" />
+
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/action_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="20dp"
+                android:text="OK"
+                app:icon="@drawable/ic_check"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/action_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="20dp"
+                android:text="NO"
+                app:icon="@drawable/icon_cancel_36dp"
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
