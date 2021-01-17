@@ -1,2 +1,8 @@
 
 *.pdf
+*.pt
+Kaggle/I’m Something of a Painter Myself(GAN)/dataset/MNIST/raw/t10k-images-idx3-ubyte
+*.gz
+Kaggle/I’m Something of a Painter Myself(GAN)/dataset/MNIST/raw/t10k-labels-idx1-ubyte
+Kaggle/I’m Something of a Painter Myself(GAN)/dataset/MNIST/raw/train-images-idx3-ubyte
+Kaggle/I’m Something of a Painter Myself(GAN)/dataset/MNIST/raw/train-labels-idx1-ubyte
