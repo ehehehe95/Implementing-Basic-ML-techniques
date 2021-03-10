@@ -12,7 +12,8 @@ Your task is to build a GAN that generates 7,000 to 10,000 Monet-style images.
 3. Hyper parameter tuning for better score
 
 ##How I studied
-###Paper I read
+###Read paper
 1. Generative Adversarial Nets (Ian J. Goodfellow, 2014)
+2. Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks  (Jun-Yan Zhu, 2017)
  
 
