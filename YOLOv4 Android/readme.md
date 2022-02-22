@@ -1,7 +1,13 @@
-Object detection using YOLOv4
+# Object detection using YOLOv4
 
-play store : https://play.google.com/store/apps/details?id=com.yooong.studynotefragment
+## [play store](https://play.google.com/store/apps/details?id=com.yooong.studynotefragment)
 
-documentation(notion, KR) : https://www.notion.so/1-Software-Overview-Documentation-669255a3a4024f45930a747791c81e5a
+## About the app
+Android app for Korean high school students. Using Yolov4 algorithm, Recognizes the problems marked wrong. Cut and gather only the problem description areas and save it in the app to review.
+
+## Etc 
+- This was my work when I first started programming... So the code here is not clean. This project taught me the importance of clean code, and writing documentation while developing.
+- This app does not run without TF model, which is not in this repository. You can try the app from the playstore.
+- If the app fails to detect the image you took, try lower the AI sensitivity. It changes the threshold value of the model.
 
 Android studio 4.01, Java
