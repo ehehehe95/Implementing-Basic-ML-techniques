@@ -7,5 +7,4 @@ Android app for Korean high school students. Using Yolov4 algorithm, Recognizes 
 
 ## Etc 
 - This was my work when I first started programming... So the code here is not clean. This project taught me the importance of clean code, and writing documentation while developing.
-- This app does not run without TF model, which is not in this repository. You can try the app from the playstore.
 - If the app fails to detect the image you took, try lower the AI sensitivity. It changes the threshold value of the model.
